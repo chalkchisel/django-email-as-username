@@ -2,7 +2,7 @@
 {% load i18n %}
 {% load static %}
 
-{% block extrastyle %}{% load adminmedia %}{{ block.super }}
+{% block extrastyle %}{{ block.super }}
 <link rel="stylesheet" type="text/css" href="{% get_static_prefix %}admin/css/login.css" />
 <style type="text/css">
   .login .form-row #id_email {
